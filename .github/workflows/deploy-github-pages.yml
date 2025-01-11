@@ -34,4 +34,4 @@ jobs:
           install_command: npm ci
           build_command: npx nx build-storybook ngx-govuk-frontend
           path: dist/storybook/ngx-govuk-frontend/
-          checkout: true
+          checkout: false
