@@ -1,5 +1,7 @@
 # Workflow name
 name: Build and Publish Storybook to GitHub Pages
+env:
+  NX_NO_CLOUD: 'true'
 
 on:
   # Event for the workflow to run on
