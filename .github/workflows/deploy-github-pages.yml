@@ -1,5 +1,6 @@
 # Workflow name
 name: Build and Publish Storybook to GitHub Pages
+
 env:
   NX_NO_CLOUD: 'true'
 
@@ -18,6 +19,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     # Job steps
     steps:
       # Manual Checkout
