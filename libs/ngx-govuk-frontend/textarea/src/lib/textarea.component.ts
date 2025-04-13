@@ -23,24 +23,20 @@ import {
  * A textarea component that follows the GOV.UK Design System guidelines.
  *
  * @example
- * ```html
  * <ngx-govuk-textarea
  *   formControlName="detail"
  *   inputId="detail"
  *   [rows]="5"
  * ></ngx-govuk-textarea>
- * ```
  *
  * @example
- * ```html
- * <ngx-govuk-textarea
+  * <ngx-govuk-textarea
  *   formControlName="detail"
  *   inputId="detail"
  *   [rows]="5"
  *   [maxLength]="200"
  *   [showCharacterCount]="true"
  * ></ngx-govuk-textarea>
- * ```
  *
  * @property {string} autocomplete - HTML autocomplete attribute value
  * @property {string} extraClasses - Additional CSS classes to apply to the textarea

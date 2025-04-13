@@ -17,9 +17,7 @@ import {
  * Password input component implementing the GOV.UK Design System password input pattern.
  *
  * @example
- * ```html
  * <ngx-govuk-password-input inputId="password" />
- * ```
  *
  * @property {string} autocomplete - Optional. The HTML autocomplete attribute value. Defaults to 'off'.
  * @property {string} extraClasses - Optional. Additional CSS classes to apply to the input element.

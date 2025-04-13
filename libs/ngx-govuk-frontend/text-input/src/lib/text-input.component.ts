@@ -20,13 +20,11 @@ import {
  * It integrates with Angular's form controls and supports accessibility features.
  *
  * @example
- * ```html
  * <ngx-govuk-text-input
  *   formControlName="firstName"
  *   inputId="first-name"
  *   autocomplete="given-name"
  * ></ngx-govuk-text-input>
- * ```
  *
  * @property {string} autocomplete - Optional. The HTML autocomplete attribute value. Defaults to 'off'.
  * @property {string} extraClasses - Optional. Additional CSS classes to apply to the input element.

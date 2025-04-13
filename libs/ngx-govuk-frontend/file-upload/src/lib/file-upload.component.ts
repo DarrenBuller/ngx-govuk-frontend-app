@@ -15,9 +15,7 @@ import {
  * It integrates with Angular's form controls.
  *
  * @example
- * ```html
  * <ngx-govuk-file-upload formControlName="photo" inputId="photo-upload" />
- * ```
  *
  * @property {string} autocomplete - Optional. The HTML autocomplete attribute value. Defaults to 'off'.
  * @property {string} extraClasses - Optional. Additional CSS classes to apply to the input element.

@@ -10,7 +10,6 @@ import {
  * Follows the GOV.UK Design System form group pattern.
  *
  * @example
- * ```html
  * <ngx-govuk-form-group
  *   inputId="example-input"
  *   label="Enter your name"
@@ -19,7 +18,6 @@ import {
  * >
  *   <input type="text" />
  * </ngx-govuk-form-group>
- * ```
  *
  * @property {string} inputId - Required. The ID attribute for the input element.
  * @property {string} label - Required. The label text for the input field.

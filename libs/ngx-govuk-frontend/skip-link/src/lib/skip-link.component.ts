@@ -10,9 +10,7 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
  * The skip link component is visually hidden until a keyboard press activates it.
  *
  * @example
- * ```html
  * <ngx-govuk-skip-link href="#main-content">Skip to main content</ngx-govuk-skip-link>
- * ```
  *
  * @property {string} href - The target ID to skip to. Defaults to "#content" if not provided.
  *
